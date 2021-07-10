@@ -1,0 +1,35 @@
+#canvas{
+    height: 95vh;
+    width: 95vw;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    height: 99%;
+    /* border: 1px solid brown; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.brick {
+    height: 15%;
+    width: 8%;
+}
+
+.on {
+    background-color: red;
+}
+
+#ball {
+    width: 10%;
+    height: 50%;
+    border-radius: 99%;
+    border: 1px solid rebeccapurple;
+    background-color: blue;
+}
+
+.paddle {
+    background-color: black;
+}
